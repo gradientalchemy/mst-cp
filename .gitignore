@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+data/
+out/
+run_lock.start
+run_lock.done
+lock_*.log
+/LOCK_V10_FILE_HASHES.txt
+/MST_RESULTS_*.txt
+results/MSTLOCKB_*.json

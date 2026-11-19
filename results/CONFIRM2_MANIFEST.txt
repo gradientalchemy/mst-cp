@@ -1,0 +1,14 @@
+# Frozen artifacts of the final confirmation round (predictor sensitivity L0/L2 and rolling audits).
+# Configurations were frozen before the run; seeds 6-15 were not used for development or selection; n_T = 200; 20 label draws per seed; alpha = 0.1.
+# Produced by: PYTHONDONTWRITEBYTECODE=1 python confirm12.py  and  python confirm3.py  (run from the repository root after: mkdir -p out), single-thread lock set by re-exec.
+# Writes out/confirm12.json and out/confirm3.json; compare with the two files below (md5).
+# md5  file
+results/CONFIRM2_predictor_L0_L2_seeds6-15.json 435b7961ab0d203e9874fbfdf69c7eea
+results/CONFIRM2_rolling_audit_seeds6-15.json e800a5e1f6b6507e212025cda729170f
+sbx.py b7b4c4100731d104b9dde66bf55c2528
+inv12_full.py cedaae4e16e78835066c676229a8a6ac
+inv3.py b29de451372ea326cd98f3b44cc38301
+confirm12.py 1514b8e46cb3a2d82769662c6a489697
+confirm3.py a7b54a077649b43a1444d99bd0549544
+common.py 711c9d24a82baa501b8a84a29eaad4ae
+mst.py 047d060c98cf5ae7f7e661ea424dd6c0
